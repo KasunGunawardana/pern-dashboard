@@ -1,0 +1,34 @@
+{
+  "name": "student-management-dashboard",
+  "version": "1.0.0",
+  "description": "pern dashboard",
+  "main": "server.js",
+  "scripts": {
+    "test": "node --watch server.js",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KasunGunawardana/pern-dashboard.git"
+  },
+  "keywords": [
+    "dashboard"
+  ],
+  "author": "Kasun Gunawardana",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KasunGunawardana/pern-dashboard/issues"
+  },
+  "homepage": "https://github.com/KasunGunawardana/pern-dashboard#readme",
+  "dependencies": {
+    "@neondatabase/serverless": "^1.0.2",
+    "dotenv": "^17.3.1",
+    "drizzle-orm": "^0.45.1",
+    "express": "^5.2.1",
+    "nodemon": "^3.1.14",
+    "pg": "^8.19.0"
+  },
+  "devDependencies": {
+    "drizzle-kit": "^0.31.9"
+  }
+}
