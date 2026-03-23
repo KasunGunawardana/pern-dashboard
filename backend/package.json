@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "pern dashboard",
   "main": "server.js",
+  "type": "module",
   "scripts": {
     "test": "node --watch server.js",
     "start": "node server.js"

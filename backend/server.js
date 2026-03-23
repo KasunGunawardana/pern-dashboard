@@ -1,5 +1,10 @@
 import express from "express";
-import db from "./db";
+import dotenv from "dotenv";
+
+// load environment variables as early as possible, before other imports
+dotenv.config();
+
+import db from "./db.js";
 
 const app = express();
 const PORT = process.env.PORT || 3000;
